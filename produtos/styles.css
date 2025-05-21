@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(73, 30, 30);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.img {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+    }
+
+    img {
+      width: 150px;
+      border-radius: 50%;
+      border: 2px solid black;
+      margin-bottom: 10px;
+    }
+.paragrafo{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 0px;
+ 
+
+}
+
+.button-link,
+.button-link2,
+.button-link3,
+.button-link4,
+.button-link5,
+.button-link6,
+.button-link7,
+.button-link8 {
+    width: 60vw;
+    max-width: 300px;
+    padding: 1rem 5rem;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 0px;
+   
+}
+.button-link:hover,
+.button-link2:hover,
+.button-link3:hover,
+.button-link4:hover,
+.button-link5:hover,
+.button-link6:hover,
+.button-link7:hover,
+.button-link8:hover {
+    transition: 0.3s;
+    color:aquamarine
+}
+
+
+p{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+ 
+}
+
+i.fab.fa-instagram {
+  font-size: 40px;     /* Tamanho do ícone */
+  color: white;        /* Cor do ícone */
+  transition: 0.3s;    /* Animação no hover */
+  bottom: 180%
+}
+
+
+
+i.fab.fa-instagram:hover {
+  color: #e1306c;       /* Cor ao passar o mouse (rosa do Insta) */
+}
