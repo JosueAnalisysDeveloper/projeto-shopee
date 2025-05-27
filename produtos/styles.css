@@ -1,5 +1,4 @@
 body {
-    background-color: rgb(73, 30, 30);
     margin: 0;
     padding: 0;
     display: flex;
@@ -7,6 +6,7 @@ body {
     align-items: center;
     justify-content: start;
     gap: 20px;
+    background-color: beige;
 }
 
 .img {
